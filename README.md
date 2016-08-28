@@ -11,8 +11,8 @@ npm install socket.io
 ```
 接着在当前目录下创建项目nodejs-socketio-chat。
 ## 如何运行
-在命令行执行
+在命令行执行如下命令：
 ```bash
 node httpServer.js
 ```
-然后打开index.html即可，不需要其他web服务器。
+然后打开index.html即可。不需要其他web服务器，因为httpServer.js运行时就充当一个小的web服务器，提供socket.io.js的web访问。
