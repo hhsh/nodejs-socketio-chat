@@ -1,10 +1,18 @@
-This is a simple chat demo by using Node.js and Socket.IO.
+# 基于socket.io的聊天室
 
 
-##Online demo:##
-  [http://demo.plhwin.com/chat/](http://demo.plhwin.com/chat/)
+## 环境部署
 
+node的安装是肯定的，其次是安装npm，然后在自己的工作目录（如：d:/nodejs/chat）下安装express和socket.io模块
 
-
-##Installation tutorial:##
-  [http://www.plhwin.com/2014/05/28/nodejs-socketio/](http://www.plhwin.com/2014/05/28/nodejs-socketio/)
+```bash
+npm install express
+npm install socket.io
+```
+接着在当前目录下创建项目nodejs-socketio-chat。
+## 如何运行
+在命令行执行
+```bash
+node httpServer.js
+```
+然后打开index.html即可，不需要其他web服务器。
